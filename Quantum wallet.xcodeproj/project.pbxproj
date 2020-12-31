@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAF0BCC5259E09EB005D416D /* Quantum_walletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0BCC4259E09EB005D416D /* Quantum_walletApp.swift */; };
+		EAF0BCC7259E09EB005D416D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0BCC6259E09EB005D416D /* ContentView.swift */; };
+		EAF0BCC9259E09FE005D416D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF0BCC8259E09FE005D416D /* Assets.xcassets */; };
+		EAF0BCCC259E09FE005D416D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF0BCCB259E09FE005D416D /* Preview Assets.xcassets */; };
+		EAF0BCD7259E0A00005D416D /* Quantum_walletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0BCD6259E0A00005D416D /* Quantum_walletTests.swift */; };
+		EAF0BCE2259E0A00005D416D /* Quantum_walletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0BCE1259E0A00005D416D /* Quantum_walletUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAF0BCD3259E0A00005D416D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF0BCB9259E09EB005D416D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF0BCC0259E09EB005D416D;
+			remoteInfo = "Quantum wallet";
+		};
+		EAF0BCDE259E0A00005D416D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF0BCB9259E09EB005D416D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF0BCC0259E09EB005D416D;
+			remoteInfo = "Quantum wallet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAF0BCC1259E09EB005D416D /* Quantum wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quantum wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF0BCC4259E09EB005D416D /* Quantum_walletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantum_walletApp.swift; sourceTree = "<group>"; };
+		EAF0BCC6259E09EB005D416D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAF0BCC8259E09FE005D416D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAF0BCCB259E09FE005D416D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAF0BCCD259E09FE005D416D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF0BCD2259E0A00005D416D /* Quantum walletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quantum walletTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF0BCD6259E0A00005D416D /* Quantum_walletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantum_walletTests.swift; sourceTree = "<group>"; };
+		EAF0BCD8259E0A00005D416D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF0BCDD259E0A00005D416D /* Quantum walletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quantum walletUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF0BCE1259E0A00005D416D /* Quantum_walletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantum_walletUITests.swift; sourceTree = "<group>"; };
+		EAF0BCE3259E0A00005D416D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAF0BCBE259E09EB005D416D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF0BCCF259E0A00005D416D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF0BCDA259E0A00005D416D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAF0BCB8259E09EB005D416D = {
+			isa = PBXGroup;
+			children = (
+				EAF0BCC3259E09EB005D416D /* Quantum wallet */,
+				EAF0BCD5259E0A00005D416D /* Quantum walletTests */,
+				EAF0BCE0259E0A00005D416D /* Quantum walletUITests */,
+				EAF0BCC2259E09EB005D416D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAF0BCC2259E09EB005D416D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0BCC1259E09EB005D416D /* Quantum wallet.app */,
+				EAF0BCD2259E0A00005D416D /* Quantum walletTests.xctest */,
+				EAF0BCDD259E0A00005D416D /* Quantum walletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAF0BCC3259E09EB005D416D /* Quantum wallet */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0BCC4259E09EB005D416D /* Quantum_walletApp.swift */,
+				EAF0BCC6259E09EB005D416D /* ContentView.swift */,
+				EAF0BCC8259E09FE005D416D /* Assets.xcassets */,
+				EAF0BCCD259E09FE005D416D /* Info.plist */,
+				EAF0BCCA259E09FE005D416D /* Preview Content */,
+			);
+			path = "Quantum wallet";
+			sourceTree = "<group>";
+		};
+		EAF0BCCA259E09FE005D416D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0BCCB259E09FE005D416D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAF0BCD5259E0A00005D416D /* Quantum walletTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0BCD6259E0A00005D416D /* Quantum_walletTests.swift */,
+				EAF0BCD8259E0A00005D416D /* Info.plist */,
+			);
+			path = "Quantum walletTests";
+			sourceTree = "<group>";
+		};
+		EAF0BCE0259E0A00005D416D /* Quantum walletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0BCE1259E0A00005D416D /* Quantum_walletUITests.swift */,
+				EAF0BCE3259E0A00005D416D /* Info.plist */,
+			);
+			path = "Quantum walletUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAF0BCC0259E09EB005D416D /* Quantum wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF0BCE6259E0A00005D416D /* Build configuration list for PBXNativeTarget "Quantum wallet" */;
+			buildPhases = (
+				EAF0BCBD259E09EB005D416D /* Sources */,
+				EAF0BCBE259E09EB005D416D /* Frameworks */,
+				EAF0BCBF259E09EB005D416D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quantum wallet";
+			productName = "Quantum wallet";
+			productReference = EAF0BCC1259E09EB005D416D /* Quantum wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAF0BCD1259E0A00005D416D /* Quantum walletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF0BCE9259E0A00005D416D /* Build configuration list for PBXNativeTarget "Quantum walletTests" */;
+			buildPhases = (
+				EAF0BCCE259E0A00005D416D /* Sources */,
+				EAF0BCCF259E0A00005D416D /* Frameworks */,
+				EAF0BCD0259E0A00005D416D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF0BCD4259E0A00005D416D /* PBXTargetDependency */,
+			);
+			name = "Quantum walletTests";
+			productName = "Quantum walletTests";
+			productReference = EAF0BCD2259E0A00005D416D /* Quantum walletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAF0BCDC259E0A00005D416D /* Quantum walletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF0BCEC259E0A00005D416D /* Build configuration list for PBXNativeTarget "Quantum walletUITests" */;
+			buildPhases = (
+				EAF0BCD9259E0A00005D416D /* Sources */,
+				EAF0BCDA259E0A00005D416D /* Frameworks */,
+				EAF0BCDB259E0A00005D416D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF0BCDF259E0A00005D416D /* PBXTargetDependency */,
+			);
+			name = "Quantum walletUITests";
+			productName = "Quantum walletUITests";
+			productReference = EAF0BCDD259E0A00005D416D /* Quantum walletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAF0BCB9259E09EB005D416D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EAF0BCC0259E09EB005D416D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					EAF0BCD1259E0A00005D416D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EAF0BCC0259E09EB005D416D;
+					};
+					EAF0BCDC259E0A00005D416D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EAF0BCC0259E09EB005D416D;
+					};
+				};
+			};
+			buildConfigurationList = EAF0BCBC259E09EB005D416D /* Build configuration list for PBXProject "Quantum wallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAF0BCB8259E09EB005D416D;
+			productRefGroup = EAF0BCC2259E09EB005D416D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAF0BCC0259E09EB005D416D /* Quantum wallet */,
+				EAF0BCD1259E0A00005D416D /* Quantum walletTests */,
+				EAF0BCDC259E0A00005D416D /* Quantum walletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAF0BCBF259E09EB005D416D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF0BCCC259E09FE005D416D /* Preview Assets.xcassets in Resources */,
+				EAF0BCC9259E09FE005D416D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF0BCD0259E0A00005D416D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF0BCDB259E0A00005D416D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAF0BCBD259E09EB005D416D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF0BCC7259E09EB005D416D /* ContentView.swift in Sources */,
+				EAF0BCC5259E09EB005D416D /* Quantum_walletApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF0BCCE259E0A00005D416D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF0BCD7259E0A00005D416D /* Quantum_walletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF0BCD9259E0A00005D416D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF0BCE2259E0A00005D416D /* Quantum_walletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAF0BCD4259E0A00005D416D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF0BCC0259E09EB005D416D /* Quantum wallet */;
+			targetProxy = EAF0BCD3259E0A00005D416D /* PBXContainerItemProxy */;
+		};
+		EAF0BCDF259E0A00005D416D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF0BCC0259E09EB005D416D /* Quantum wallet */;
+			targetProxy = EAF0BCDE259E0A00005D416D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EAF0BCE4259E0A00005D416D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAF0BCE5259E0A00005D416D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAF0BCE7259E0A00005D416D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Quantum wallet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Quantum wallet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ChekiBomb.Quantum-wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAF0BCE8259E0A00005D416D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Quantum wallet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Quantum wallet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ChekiBomb.Quantum-wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAF0BCEA259E0A00005D416D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quantum walletTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ChekiBomb.Quantum-walletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quantum wallet.app/Quantum wallet";
+			};
+			name = Debug;
+		};
+		EAF0BCEB259E0A00005D416D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quantum walletTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ChekiBomb.Quantum-walletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quantum wallet.app/Quantum wallet";
+			};
+			name = Release;
+		};
+		EAF0BCED259E0A00005D416D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quantum walletUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ChekiBomb.Quantum-walletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quantum wallet";
+			};
+			name = Debug;
+		};
+		EAF0BCEE259E0A00005D416D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quantum walletUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ChekiBomb.Quantum-walletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quantum wallet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAF0BCBC259E09EB005D416D /* Build configuration list for PBXProject "Quantum wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF0BCE4259E0A00005D416D /* Debug */,
+				EAF0BCE5259E0A00005D416D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF0BCE6259E0A00005D416D /* Build configuration list for PBXNativeTarget "Quantum wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF0BCE7259E0A00005D416D /* Debug */,
+				EAF0BCE8259E0A00005D416D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF0BCE9259E0A00005D416D /* Build configuration list for PBXNativeTarget "Quantum walletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF0BCEA259E0A00005D416D /* Debug */,
+				EAF0BCEB259E0A00005D416D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF0BCEC259E0A00005D416D /* Build configuration list for PBXNativeTarget "Quantum walletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF0BCED259E0A00005D416D /* Debug */,
+				EAF0BCEE259E0A00005D416D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAF0BCB9259E09EB005D416D /* Project object */;
+}
